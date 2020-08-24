@@ -1,0 +1,31 @@
+
+.slider {
+
+	&__wrapper {}
+
+	&__slide {
+		display: none
+	}
+
+	&__slide--active {
+		display: block;
+	}
+
+	&__buttons {}
+
+	&__slide-prev {}
+
+	&__slide-next {}
+
+	&__dots-wrapper {}
+
+	&__dot {}
+
+	&__dot--active {
+		background-color: red;
+	}
+}
+
+@media (min-width: $tablet-width) {}
+
+@media (min-width: $desktop-width) {}

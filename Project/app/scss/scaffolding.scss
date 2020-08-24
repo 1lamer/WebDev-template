@@ -1,0 +1,85 @@
+
+////////////////////Переменные и миксины/////////////////////
+@import "variables.scss";
+
+//////////////////////////////////////////////////////////////
+
+
+////////////////////Подключение шрифтов///////////////////////////////
+
+@font-face {
+	font-family: "";
+	src: url('../fonts/.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "";
+	src: url('../fonts/.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+//////////////////////////////////////////////////////////////////////...
+
+
+///////////////////////Стили по умолчанию/////////////////////////////////
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "", "Arial", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+
+	background-color: $bg-darkgrey;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+fieldset {
+	padding: 0;
+}
+
+.visually-hidden {
+	position: absolute;
+	
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+/////////////////////////////////////////////////////////////
